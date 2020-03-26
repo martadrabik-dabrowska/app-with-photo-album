@@ -17,8 +17,8 @@ This app allows:
 
 
 ## Technologies
-* Spring Boot - version 2.1.6
-* Vaadin - version 14.0.1
+* [Spring Boot] - version 2.1.6
+* [Vaadin] - version 14.0.1
 
 
 
