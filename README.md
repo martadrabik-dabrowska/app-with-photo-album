@@ -17,5 +17,19 @@ This app allows:
 
 
 ## Technologies
-* Spring boot - version 2.1.6
+* Spring Boot - version 2.1.6
 * Vaadin - version 14.0.1
+
+
+
+
+
+License
+----
+
+MIT
+
+
+[Spring Boot]: <https://spring.io/projects/spring-boot>
+[Vaadin]: <https://vaadin.com/releases>
+
