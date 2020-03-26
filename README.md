@@ -27,10 +27,12 @@ This app allows:
 This app is a Spring Boot application built using Maven. You can build a jar file and run it from the command line:
 
 git clone https://github.com/martad1388/app-with-photo-album
+```sh
+cd app-with-photo-album
+./mvnw package
+java -jar target/*.jar
+```
 
-`cd app-with-photo-album`
-`./mvnw package`
-`java -jar target/*.jar`
 You can then access app here: http://localhost:8096/
 
 ## Status
