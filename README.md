@@ -3,6 +3,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Installation](#installation)
+* [Status](#status)
 
 ## General info
 
@@ -21,8 +23,18 @@ This app allows:
 * [Vaadin] - version 14.0.1
 
 
+## Installation
+This app is a Spring Boot application built using Maven. You can build a jar file and run it from the command line:
 
+git clone https://github.com/martad1388/app-with-photo-album
 
+cd app-with-photo-album
+./mvnw package
+java -jar target/*.jar
+You can then access app here: http://localhost:8096/
+
+## Status
+Project is: _in progress_
 
 License
 ----
