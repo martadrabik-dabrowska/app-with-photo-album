@@ -24,7 +24,7 @@ This app allows:
 
 
 
-![Main Page](./images/screenshot.JPG)
+![Main Page](./src/main/resources/static/images/screenshot.JPG)
 
 
 
