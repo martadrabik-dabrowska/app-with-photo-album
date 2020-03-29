@@ -1,0 +1,85 @@
+.menu-layout{
+    border-bottom: solid 1px black;
+}
+.main-layout{
+    background: linear-gradient(white, darkseagreen )
+}
+.about-text{
+    padding: 1em;
+    text-decoration: #99007c;
+    border: #0C98BE;
+    font-weight: bold;
+    font-size: 30px;
+}
+.icon-vaadin{
+
+    top: 150px;
+}
+.image-style{
+    margin: auto;
+}
+.register-style{
+    margin: auto;
+}
+.film-style{
+    margin: auto;
+    margin-bottom: 0px;
+}
+.slider-layout{
+    background-color: black;
+}
+.grid-style{
+    color: blue;
+    font-weight: bold;
+}
+.delete-style{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.class-login{
+    background-color: red;
+}
+.footer-style{
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+.button-style{
+    margin-top:1px;
+}
+.register-style{
+    border: black;
+}
+.register-button{
+    background-color: palegreen;
+    color: black;
+}
+.cancel-button{
+    background-color: yellow;
+    color: black;
+}
+.description-style{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.description-styles{
+    color: blue;
+
+    font-family: "Arial Black", serif;
+    margin: auto;
+    font-size: larger;
+}
+.logout-style{
+    background-color: yellow;
+    color: black;
+}
+
+.welcome-layout{
+    font-weight: bold;
+}
+.edit-style{
+    background-color: #0C98BE;
+    color: white;
+}
