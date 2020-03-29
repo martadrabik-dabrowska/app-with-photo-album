@@ -23,6 +23,14 @@ This app allows:
 * [Vaadin] - version 14.0.1
 
 
+
+![Main Page](./images/screenshot.jpg)
+
+
+
+
+
+
 ## Installation
 This app is a Spring Boot application built using Maven. You can build a jar file and run it from the command line:
 
