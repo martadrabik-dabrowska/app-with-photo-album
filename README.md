@@ -3,6 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Status](#status)
 
@@ -22,7 +23,9 @@ This app allows:
 * [Spring Boot] - version 2.1.6
 * [Vaadin] - version 14.0.1
 
+## Screenshots
 
+User Page
 
 ![Main Page](./src/main/resources/static/images/screenshot.JPG)
 
