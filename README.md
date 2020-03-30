@@ -25,22 +25,21 @@ This app allows:
 
 ## Screenshots
 
-Register Page
+### Register Page
 
 ![Register Page](./src/main/resources/static/images/regshot.JPG)
 
-User Page
+### User Page
 
 ![Main Page](./src/main/resources/static/images/screenshot.JPG)
 
-Add new photo
+### Add new photo
 
 ![Add Photo Page](./src/main/resources/static/images/uploadshot.JPG)
 
-Edit Profile
+### Edit Profile
 
 ![Edit Profile Page](./src/main/resources/static/images/editshot.JPG)
-
 
 ## Installation
 This app is a Spring Boot application built using Maven. You can build a jar file and run it from the command line:
