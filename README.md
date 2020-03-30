@@ -25,13 +25,21 @@ This app allows:
 
 ## Screenshots
 
+Register Page
+
+![Register Page](./src/main/resources/static/images/regshot.JPG)
+
 User Page
 
 ![Main Page](./src/main/resources/static/images/screenshot.JPG)
 
+Add new photo
 
+![Add Photo Page](./src/main/resources/static/images/uploadshot.JPG)
 
+Edit Profile
 
+![Edit Profile Page](./src/main/resources/static/images/editshot.JPG)
 
 
 ## Installation
@@ -54,7 +62,10 @@ License
 
 MIT
 
+Photos from [Pixabay]
+
 
 [Spring Boot]: <https://spring.io/projects/spring-boot>
 [Vaadin]: <https://vaadin.com/releases>
+[Pixabay]: <https://pixabay.com/pl/>
 
