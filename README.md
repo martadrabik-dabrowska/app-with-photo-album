@@ -44,7 +44,7 @@ This app allows:
 ## Installation
 This app is a Spring Boot application built using Maven. You can build a jar file and run it from the command line:
 
-git clone https://github.com/martad1388/app-with-photo-album
+git clone https://github.com/martadrabik-dabrowska/app-with-photo-album
 ```sh
 cd app-with-photo-album
 ./mvnw package
