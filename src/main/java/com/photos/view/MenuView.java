@@ -34,13 +34,9 @@ public class MenuView extends VerticalLayout {
 
     private Image loginImage;
 
-    private HorizontalLayout userImageLayout;
-
-    private Image userImage;
+    private final HorizontalLayout userImageLayout;
 
     private VerticalLayout welcomeUserLayout;
-
-    private Label loggedAsLabel;
 
     private Button logoutButton;
 
@@ -75,7 +71,6 @@ public class MenuView extends VerticalLayout {
 
         majorLayout.add(userImageLayout);
 
-        createUserImg();
 
         createWelcomeLayout();
 
@@ -83,7 +78,7 @@ public class MenuView extends VerticalLayout {
 
         setAuthentication();
 
-        if(userImage.isVisible()){
+        if(myGalleryImg.isVisible()){
             registerImage.setVisible(false);
             loginImage.setVisible(false);
         }
@@ -175,19 +170,13 @@ public class MenuView extends VerticalLayout {
         loginImage.addClickListener(p -> login());
     }
 
-    private void createUserImg() {
-        userImage = new Image("/images/userImage.png", "Login logo");
-        userImage.setTitle("Zaloguj się");
-        userImage.setHeight("80px");
-        userImageLayout.add(userImage);
-    }
 
     private void createWelcomeLayout() {
         welcomeUserLayout = new VerticalLayout();
         welcomeUserLayout.setHeight("10px");
 
         userImageLayout.add(welcomeUserLayout);
-        loggedAsLabel = new Label("Zalogowany jako: ");
+        Label loggedAsLabel = new Label("Zalogowany jako: ");
         welcomeUserLayout.add(loggedAsLabel);
         welcomeUserLayout.addClickListener(p-> updateData());
         welcomeUserLayout.getStyle().set("cursor", "pointer");
@@ -210,14 +199,15 @@ public class MenuView extends VerticalLayout {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         welcomeUserLayout.add(authentication.getName());
 
+        boolean isAdmin = authentication.getAuthorities().stream().map(GrantedAuthority::getAuthority).anyMatch(p -> p.equals("admin"));
+        boolean isUser = authentication.getAuthorities().stream().map(GrantedAuthority::getAuthority).anyMatch(p -> p.equals("user"));
+
         myGalleryImg.setVisible(!"anonymousUser".equals(authentication.getName()));
         allGalleryImg.setVisible(!"anonymousUser".equals(authentication.getName()));
         addImage.setVisible(!"anonymousUser".equals(authentication.getName()));
-        welcomeUserLayout.setVisible(!"anonymousUser".equals(authentication.getName()));
-        userImage.setVisible(!"anonymousUser".equals(authentication.getName()));
+        welcomeUserLayout.setVisible(isAdmin||isUser);
         logoutButton.setVisible(!"anonymousUser".equals(authentication.getName()));
-        usersImage.setVisible(!"anonymousUser".equals(authentication.getName()));
-
+        usersImage.setVisible(isAdmin);
     }
 
     private void showMainPage() {
