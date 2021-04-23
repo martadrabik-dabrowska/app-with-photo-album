@@ -9,7 +9,7 @@
 
 
 <div align="center">
-      <a href="https://youtu.be/embed//wIpZpRC93cg">
+      <a href="https://youtu.be/wIpZpRC93cg">
      <img 
       src="https://youtu.be/embed//wIpZpRC93cg" 
       alt="Everything Is AWESOME" 
