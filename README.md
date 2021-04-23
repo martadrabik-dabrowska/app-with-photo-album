@@ -15,7 +15,7 @@
       <a href="https://youtu.be/wIpZpRC93cg">
      <img 
       src="https://img.youtube.com/vi/wIpZpRC93cg/maxresdefault.jpg" 
-      alt="Everything Is AWESOME" 
+      alt="Photo App" 
       style="width:100%;">
       </a>
     </div>
