@@ -9,9 +9,9 @@
 
 
 <div align="center">
-      <a href="https://youtu.be/wIpZpRC93cg">
+      <a href="https://youtu.be/embed//wIpZpRC93cg">
      <img 
-      src="https://img.youtube.com/embed/vi/wIpZpRC93cg/maxresdefault.jpg" 
+      src="https://youtu.be/embed//wIpZpRC93cg" 
       alt="Everything Is AWESOME" 
       style="width:100%;">
       </a>
