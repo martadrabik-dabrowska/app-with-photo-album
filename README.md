@@ -7,16 +7,16 @@
 * [Installation](#installation)
 * [Status](#status)
 
+click and check 🠓
 
 <div align="center">
       <a href="https://youtu.be/wIpZpRC93cg">
      <img 
-      src="https://youtu.be/embed//wIpZpRC93cg" 
+      src="https://img.youtube.com/vi/wIpZpRC93cg/maxresdefault.jpg" 
       alt="Everything Is AWESOME" 
       style="width:100%;">
       </a>
     </div>
-
 
 
 
