@@ -9,7 +9,7 @@
 
 
 
-## Click and check on YouTube 🠓
+## Click on the picture and check on YouTube 🠓
 
 <div align="center">
       <a href="https://youtu.be/wIpZpRC93cg">
